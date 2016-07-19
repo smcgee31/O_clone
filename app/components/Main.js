@@ -1,21 +1,5 @@
-// import React from 'react';
-//
-// const Main = React.createClass ({
-//   render: function() {
-//     return (
-//       <div className=''>
-//         {/*<Header />*/}
-//         {this.props.children}
-//         {/*<Footer />*/}
-//       </div>
-//     )
-//   }
-// });
-//
-// module.exports = Main;
-
 import React, {Component} from 'react';
-import Header from './Header';
+import HeaderContainer from '../containers/HeaderContainer';
 
 export default class Main extends Component {
 
@@ -28,8 +12,7 @@ export default class Main extends Component {
   render() {
     return(
       <div className='main-component'>
-        <Header />
-        some stuff from MAIN
+        <HeaderContainer />
         {this.props.children}
       </div>
     );

@@ -1,0 +1,35 @@
+.HeroBannerMessage {
+  position: relative;
+  bottom: 304px;
+  left: 85px;
+  font-size: 60px;
+  line-height: 55px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(75, 75, 75, 1);
+  width: 480px;
+}
+.shopButton {
+  position: relative;
+  bottom: 266px;
+  left: 85px;
+  background: transparent;
+  width: 118px;
+  height: 30px;
+  font-size: 12px;
+  line-height: 30px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  padding: 0;
+}
+.promoTerms {
+  position: relative;
+  bottom: 173px;
+  right: 25px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+  text-align: right;
+  text-shadow: 1px 1px 2px rgba(75, 75, 75, 1);
+}

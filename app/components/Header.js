@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
+import HeaderMessage from './HeaderMessage';
+import HeaderClubO from './HeaderClubO';
 import NavLinksBar from './NavLinksBar';
-require('../main.css');
+require('./Header.css');
 
 export default class Header extends Component {
 
@@ -13,19 +15,18 @@ export default class Header extends Component {
   render() {
     return(
       <div className='header_container'>
-        <div className="free_shipping_link">
-          <span>FREE SHIPPING</span> OVER $45* & EASY RETURNS
-        </div>
+        <HeaderMessage />
         <div className="header_middle_area">
           <div className='header_logo'>
             <img src={'./app/img/header_logo.png'} />
           </div>
           <div className="header_searchbar">
-            <input className="searchbar" type="text" placeholder="Search" onChange={ (event) => this.searchbar(event.target.value)} />
-            <button className="search_btn fa" type="button">
-            <i className="fa fa-search fa-inverse"></i>
+            <input className="searchInput" type="text" placeholder="Search" onChange={ (event) => this.searchInput(event.target.value)} />
+            <button className="search_btn" type="button">
+            <i className="fa fa-search fa-lg fa-inverse" aria-hidden="true"></i>
             </button>
           </div>
+          <HeaderClubO />
         </div>
         <NavLinksBar />
       </div>

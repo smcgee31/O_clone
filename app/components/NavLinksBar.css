@@ -1,0 +1,15 @@
+.NavLinksBar {
+  margin-top: 16px;
+  color: #7B7B7B;
+  font-size: 11px;
+  background-color: #F2F3F4;
+  width: 100%;
+  height: 35px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.sale {
+  color: #C7202C;
+}

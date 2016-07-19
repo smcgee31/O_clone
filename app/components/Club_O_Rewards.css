@@ -1,0 +1,14 @@
+.club_O_rewards {
+  width: 80%;
+  height: 60%;
+  margin: 30px auto;
+  text-align: center;
+}
+.club_O_rewards h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #C7202C;
+}
+.club-O_title:hover {
+  text-decoration: underline;
+}

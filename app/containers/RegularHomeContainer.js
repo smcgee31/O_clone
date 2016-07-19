@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import Header from '../components/Header';
 
-export default class HeaderContainer extends Component {
+export default class RegularHomeContainer extends Component {
 
   constructor(props){
     super(props);
@@ -11,7 +10,9 @@ export default class HeaderContainer extends Component {
 
   render() {
     return(
-      <Header />
+      <div className='RegularHome_container'>
+
+      </div>
     );
   }
 

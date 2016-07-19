@@ -1,0 +1,13 @@
+.free_shipping_link {
+  font-size: 13px;
+  color: #C7202C;
+  text-align: center;
+  line-height: 35px;
+  margin-bottom: 6px;
+}
+.free_shipping_link span {
+  font-weight: bold;
+}
+.free_shipping_link:hover {
+  text-decoration: underline;
+}

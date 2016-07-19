@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+require('./NavLinksBar.css');
+
 
 export default class NavLinksBar extends Component {
 
@@ -22,7 +24,7 @@ export default class NavLinksBar extends Component {
         <span>Electronics</span>
         <span>Worldstock</span>
         <span>More</span>
-        <span>Sale</span>
+        <span className='sale'>Sale</span>
         {/*use flexbox? for spacing*/}
       </div>
     );

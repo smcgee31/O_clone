@@ -1,0 +1,8 @@
+.HeroBanner_container {
+  width: 100%;
+  height: auto;
+}
+.HeroBanner_container img {
+  width: 100%;
+  margin: 4px 0 4px 0;
+}
