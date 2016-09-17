@@ -15,10 +15,6 @@ const routes = (
       <IndexRoute component={Home} />
       <Route path='regularHome' component={RegularHomeContainer} />
       <Route path='club_O_Rewards' component={Club_O_RewardsContainer} />
-
-      {/*<Route path='playerTwo/:playerOne' header='Player Two' component={PromptContainer} />
-      <Route path='battle' component={ConfirmBattleContainer} />
-      <Route path='results' component={ResultsContainer} />*/}
     </Route>
   </Router>
 );

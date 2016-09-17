@@ -21,9 +21,14 @@ export default class Header extends Component {
             <img src={'./app/img/header_logo.png'} />
           </div>
           <div className="header_searchbar">
-            <input className="searchInput" type="text" placeholder="Search" onChange={ (event) => this.searchInput(event.target.value)} />
+            <input
+              className="searchInput"
+              type="text"
+              placeholder="Search"
+              onChange={ (event) => this.searchInput(event.target.value)}
+            />
             <button className="search_btn" type="button">
-            <i className="fa fa-search fa-lg fa-inverse" aria-hidden="true"></i>
+              <i className="fa fa-search fa-lg fa-inverse" aria-hidden="true"></i>
             </button>
           </div>
           <HeaderClubO />

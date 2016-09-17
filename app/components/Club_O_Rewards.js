@@ -8,11 +8,10 @@ export default class Club_O_Rewards extends Component {
 
     this.state = {};
   }
-
   render() {
     return(
       <div className='club_O_rewards'>
-        <h1>Congratulations, you've made it to the Club-O Rewards page!</h1>
+        <h1>Congratulations, you have made it to the Club-O Rewards page!</h1>
       </div>
     );
   }
